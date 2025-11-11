@@ -49,12 +49,14 @@ Menampilkan teks sederhana menggunakan PHP.
 <?php
 echo "Hello World";
 ?>
-````
 
-📸 *Output:* Menampilkan tulisan “Hello World”.
+```
+#### 📸 Menampilkan tulisan “Hello World”.
 
----
+<img src="img/php dasar.png">
 
+```
+```
 ### 2. Variabel – `variable.php`
 
 Menggunakan variabel untuk menampilkan data.
@@ -69,10 +71,12 @@ echo "Nama : $nama";
 ?>
 ```
 
-📸 *Output:* Menampilkan NIM dan Nama.
+#### 📸 Menampilkan NIM dan Nama.
+<img src="img/variable.png">
 
 ---
-
+```
+```
 ### 3. Predefine Variable – `latihan2.php`
 
 Menangkap data dari URL menggunakan `$_GET`.
@@ -85,6 +89,10 @@ echo 'Selamat Datang ' . $_GET['nama'];
 
 🔗 *Akses melalui:*
 `http://localhost/lab7_php_dasar/latihan2.php?nama=Agung`
+
+#### 📸 Capture
+
+<img src="img/latihan2.png">
 
 ---
 
@@ -100,7 +108,11 @@ Mengirim data ke server menggunakan method **POST**.
 </form>
 ```
 
-📸 *Output:* Menampilkan hasil input nama.
+#### 📸 Menampilkan hasil input nama.
+
+<img src="img/form input1.png">
+
+<img src="img/form input2.png">
 
 ---
 
@@ -114,7 +126,9 @@ $pajak = 0.1;
 $thp   = $gaji - ($gaji * $pajak);
 ```
 
-📸 *Output:* Menampilkan gaji sebelum dan sesudah pajak.
+#### 📸 Menampilkan gaji sebelum dan sesudah pajak.
+
+<img src="img/operator.png">
 
 ---
 
@@ -128,6 +142,9 @@ if ($nama_hari == "Sunday") echo "Minggu";
 elseif ($nama_hari == "Monday") echo "Senin";
 else echo "Selasa";
 ```
+#### 📸 Capture
+
+<img src="img/kondisi if.png">
 
 ---
 
@@ -143,6 +160,9 @@ switch ($nama_hari) {
     default: echo "Sabtu";
 }
 ```
+#### 📸 Capture
+
+<img src="img/kondisi switch.png">
 
 ---
 
@@ -153,6 +173,9 @@ Melakukan perulangan naik dan turun.
 ```php
 for ($i=1; $i<=10; $i++) echo "Perulangan ke: $i<br>";
 ```
+#### 📸 Capture
+
+<img src="img/perulangan for.png">
 
 ---
 
@@ -163,6 +186,9 @@ Menampilkan perulangan dengan kondisi sebelum dan sesudah blok.
 ```php
 while ($i<=10) { echo "Perulangan ke: $i<br>"; $i++; }
 ```
+#### 📸 Capture
+
+<img src="img/perulangan while.png">
 
 ---
 
@@ -181,8 +207,10 @@ switch ($pekerjaan) {
 }
 ```
 
-📸 *Output:*
-Menampilkan nama, umur, pekerjaan, dan gaji sesuai input.
+#### 📸 Menampilkan nama, umur, pekerjaan, dan gaji sesuai input.
+
+<img src="img/tugas1.png">
+<img src="img/tugas2.png">
 
 ---
 
@@ -203,26 +231,6 @@ lab7_php_dasar/
 ├── perulangan_dowhile.php
 └── tugas.php
 ```
-
----
-
-## 📸 Dokumentasi Screenshot
-
-*(Tambahkan screenshot hasil running dari setiap file di bagian ini)*
-
----
-
-## 📝 Kesimpulan
-
-Dari praktikum ini, saya memahami:
-
-* Dasar penggunaan PHP di sisi server (*server-side scripting*).
-* Cara menggunakan variabel dan tipe data.
-* Struktur kondisi (if, switch) dan perulangan (for, while, do-while).
-* Cara menangani input dari user melalui form HTML.
-* Serta mengintegrasikan logika sederhana untuk menampilkan hasil perhitungan.
-
----
 
 📚 **Universitas Pelita Bangsa – Fakultas Teknik**
 Bekasi, 2025
