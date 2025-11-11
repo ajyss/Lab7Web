@@ -37,8 +37,7 @@ C:\xampp\htdocs\lab7_php_dasar\
 
 [http://localhost/lab7_php_dasar/](http://localhost/lab7_php_dasar/)
 
-````
-
+---
 ```
 ## 💻 Langkah-langkah Praktikum
 
@@ -49,12 +48,13 @@ Menampilkan teks sederhana menggunakan PHP.
 echo "Hello World";
 ?>
 ```
-#### 📸 Menampilkan tulisan “Hello World”.
+
+#### 📸 Menampilkan tulisan "Hello World".
 
 <img src="img/php dasar.png">
 
-```
-```
+---
+
 ### 2. Variabel – `variable.php`
 
 Menggunakan variabel untuk menampilkan data.
@@ -73,8 +73,7 @@ echo "Nama : $nama";
 <img src="img/variable.png">
 
 ---
-```
-```
+
 ### 3. Predefine Variable – `latihan2.php`
 
 Menangkap data dari URL menggunakan `$_GET`.
