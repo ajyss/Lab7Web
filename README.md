@@ -39,7 +39,6 @@ C:\xampp\htdocs\lab7_php_dasar\
 
 ````
 
----
 ```
 ## 💻 Langkah-langkah Praktikum
 
@@ -49,7 +48,6 @@ Menampilkan teks sederhana menggunakan PHP.
 <?php
 echo "Hello World";
 ?>
-
 ```
 #### 📸 Menampilkan tulisan “Hello World”.
 
